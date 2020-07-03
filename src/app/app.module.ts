@@ -5,12 +5,14 @@ import {AppComponent} from './app.component';
 import {PetComponent} from './profile/pet/pet.component';
 import {FormsModule} from '@angular/forms';
 import {CalculatorComponent} from './profile/calculator/calculator.component';
+import { ColorComponent } from './profile/color/color.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PetComponent,
-    CalculatorComponent
+    CalculatorComponent,
+    ColorComponent
   ],
   imports: [
     BrowserModule,

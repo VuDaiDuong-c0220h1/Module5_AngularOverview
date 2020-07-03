@@ -1,0 +1,11 @@
+<h2>Calculator</h2>
+
+<input type="number" value="0" [(ngModel)]="firstNumber" (change)="onchange()">
+<select [(ngModel)]="math" (change)="onchange()">
+  <option value="plus">+</option>
+  <option value="subtraction">-</option>
+  <option value="multiplication">*</option>
+  <option value="division">/</option>
+</select>
+<input type="number" value="0" [(ngModel)]="secondNumber" (change)="onchange()">
+<p>Kết quả là: <span id="result"></span></p>
